@@ -96,6 +96,16 @@ node test-flow.js
 - `clerk-flow.js`：串联业务动作（打开→点击→输入→提交）
 - `utils/`：统一放等待、截图、重试、日志函数
 
+当前已提供起步脚本：`clerk-flow.js`
+
+运行示例：
+```bash
+CLERK_EMAIL="you@example.com" CLERK_PASSWORD="***" node clerk-flow.js
+```
+会产出：
+- `clerk-01-open.png`
+- `clerk-02-after-login-attempt.png`
+
 ---
 
 ## 已完成基线
